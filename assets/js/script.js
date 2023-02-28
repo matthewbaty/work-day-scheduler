@@ -4,8 +4,6 @@ $(function () {
   $("#currentDay").text(currentDate);
   // get the current hour using dayjs
   var currentHour = dayjs().hour();
-  // var currentHour = 12
-  //   console.log(currentHour);
 
   // loop through all time-block divs
   $(".time-block").each(function () {
