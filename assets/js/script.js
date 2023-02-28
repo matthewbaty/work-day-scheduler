@@ -1,8 +1,5 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
 $(function () {
-  //   // TODO: Add code to display the current date in the header of the page.
+  // display the current date in the header of the page
   var currentDate = dayjs().format("dddd, MMM DD YYYY");
   $("#currentDay").text(currentDate);
   // get the current hour using dayjs
